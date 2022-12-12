@@ -1,7 +1,17 @@
-.title-name {
+.text-title {
   font-family: $headers-font;
   font-weight: 500;
-  font-size: 2.5 em;
-  opacity: .8;
+  font-size: 2.1 em;
   margin-bottom: 0;
+  opacity: .8;
+}
+
+.text-job-position {
+  color: $gray;
+  opacity: .8;
+  letter-spacing: 0.2em;
+}
+
+.text-center-heading {
+  text-align: center;
 }
