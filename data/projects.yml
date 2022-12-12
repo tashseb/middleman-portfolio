@@ -13,7 +13,7 @@
   image: projects/placeholder.png
   url: https://www.google.com
 
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Sinta
+  description: A Recruitment Management System that helps recruiters to make the hiring process fast and transparent.
+  image: https://user-images.githubusercontent.com/114022804/205541769-bc8de7fe-ce85-465d-b932-479a3a94d023.png
+  url: https://www.sintaapp.com
