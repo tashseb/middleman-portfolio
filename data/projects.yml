@@ -1,19 +1,18 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
 
 - name: Sinta
   description: A Recruitment Management System that helps recruiters to make the hiring process fast and transparent.
-  image: https://user-images.githubusercontent.com/114022804/205541769-bc8de7fe-ce85-465d-b932-479a3a94d023.png
+  image: https://user-images.githubusercontent.com/13973128/207237758-3bff6ea4-5fd3-4de3-8fbe-f8fa1b2f5dcf.gif
   url: https://www.sintaapp.com
+  role: Lead Developer
+
+- name: KiSpace
+  description: A marketplace for event spaces.
+  image: projects/placeholder.png
+  url: https://www.google.com
+  role: Front-End Developer
+
+- name: Mr. Watchlist
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+  role: Full-Stack Developer

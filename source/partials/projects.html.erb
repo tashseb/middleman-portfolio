@@ -3,25 +3,22 @@
     <div class="container">
       <div id="projects">
         <h2 class="text-center-heading">Projects</h2>
-        <div class="project-container">
-          <% data.projects.each do |project| %>
-            <div class="project-image omagine-img">
+        <% data.projects.each do |project| %>
+          <div class="project-container">
+            <div class="project-image project-img">
               <div id="carousel-four" class="carousel slide carousel-container" data-interval="false">
                 <div class="carousel-inner">
                   <div class="carousel-item active item carousel-image">
-                    <img width="1507" alt="Sinta dashboard" src="https://user-images.githubusercontent.com/114022804/205541769-bc8de7fe-ce85-465d-b932-479a3a94d023.png" class="d-block w-100">
+                    <%= image_tag project.image, alt: "project image", class: "d-block w-100" %>
+                    <%# <img width="1507" alt="Sinta dashboard" src="https://user-images.githubusercontent.com/114022804/205541769-bc8de7fe-ce85-465d-b932-479a3a94d023.png" class="d-block w-100"> %>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="project-information omagine-info">
-              <h5>Sinta</h5>
-              <h6>Jr. Front End Developer</h6>
-              <p>Omagine is a web app for athletic trainers to manage their business. Omagine integrates payments,
-                scheduling, and enables users to host links in order to help grow their businesses and better connect with
-                their
-                clientele. My role has been to redesign and rebuild the landing page and improve the core
-                functionality of the service.</p>
+            <div class="project-information project-info">
+              <h5><%= project.name %></h5>
+              <h6><%= project.role %></h6>
+              <p><%= project.description %></p>
               <div class="technology-container">
                 <img class="technology-icons" src="assets/images/HTML5-logo.svg" alt="">
                 <img class="technology-icons" src="assets/images/CSS3-logo.svg" alt="">
@@ -29,13 +26,13 @@
                 <img class="technology-icons" src="assets/images/Github-icon.svg" alt="">
                 <img class="technology-icons" src="assets/images/Figma-logo.svg" alt="">
               </div>
-              <a class="view-live-btn" href="https://omagine.co/" target="_blank" rel="nofollow noopener">
+              <a class="view-live-btn" href="https://www.sintaapp.com/" target="_blank" rel="nofollow noopener">
                 <span>View Site</span>
               </a>
             </div>
             <div class="divider d0"></div>
-          <% end %>
-        </div>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>

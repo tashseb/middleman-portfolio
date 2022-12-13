@@ -149,54 +149,13 @@ path.arrow-down {
   align-self: start;
 }
 
-.omagine-img {
-  grid-area: omagineImgs;
+.project-img {
+  grid-area: projectImgs;
 }
 
-.omagine-info {
-  grid-area: omagineInfo;
+.project-info {
+  grid-area: projectInfo;
 }
-
-.ssp-img {
-  grid-area: sspImgs;
-}
-
-.ssp-info {
-  grid-area: sspInfo;
-}
-
-.as-img {
-  grid-area: asImgs;
-}
-
-.as-info {
-  grid-area: asInfo;
-}
-
-.cl-img {
-  grid-area: clImgs;
-}
-
-.cl-info {
-  grid-area: clInfo;
-}
-
-.jc-img {
-  grid-area: jcImgs;
-}
-
-.jc-info {
-  grid-area: jcInfo;
-}
-
-.cb-img {
-  grid-area: cbImgs;
-}
-
-.cb-info {
-  grid-area: cbInfo;
-}
-
 .divider {
   height: 2px;
   border-radius: 1px;
@@ -205,22 +164,6 @@ path.arrow-down {
 
 .d0 {
   grid-area: d0;
-}
-
-.d1 {
-  grid-area: d1;
-}
-
-.d2 {
-  grid-area: d2;
-}
-
-.d3 {
-  grid-area: d3;
-}
-
-.d4 {
-  grid-area: d4;
 }
 
 .project-container {
@@ -232,17 +175,8 @@ path.arrow-down {
   padding-bottom: 3rem;
 
   grid-template-areas:
-    "omagineImgs omagineImgs omagineImgs omagineInfo omagineInfo"
-    "d0 d0 d0 d0 d0"
-    "sspImgs sspImgs sspImgs sspInfo sspInfo "
-    "d1 d1 d1 d1 d1"
-    "asImgs asImgs asImgs asInfo asInfo"
-    "d2 d2 d2 d2 d2"
-    "clImgs clImgs clImgs clInfo clInfo "
-    "d3 d3 d3 d3 d3"
-    "jcImgs jcImgs jcImgs jcInfo jcInfo"
-    "d4 d4 d4 d4 d4"
-    "cbImgs cbImgs cbImgs cbInfo cbInfo ";
+    "projectImgs projectImgs projectImgs projectInfo projectInfo"
+    "d0 d0 d0 d0 d0";
 }
 
 .project-information {
@@ -386,22 +320,9 @@ footer {
     grid-column-gap: 0rem;
 
     grid-template-areas:
-      "omagineImgs"
-      "omagineInfo"
-      "d0"
-      "sspImgs"
-      "sspInfo"
-      "asImgs"
-      "asInfo"
-      "d1"
-      "clImgs"
-      "clInfo"
-      "d2"
-      "jcImgs"
-      "jcInfo"
-      "d3"
-      "cbImgs"
-      "cbInfo";
+      "projectImgs"
+      "projectInfo"
+      "d0";
   }
 
   .project-information {
