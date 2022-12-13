@@ -1,19 +1,45 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Sinta
+  description: A Recruitment Management System that helps recruiters to make the hiring process fast and transparent. Slack integration allows Recruiters to get real-time feedback from interviewers.
+  image: projects/sinta/Sinta-dashboard.png
+  url: https://www.sintaapp.com
+  role: Lead Developer
+  role_description: I was responsible for designing the GitHub workflow, database seeding and migration with PostgreSQL and deployment pipeline on Heroku.
+  tech_stack:
+    - tech/rails.png
+    - tech/slack.png
+    - tech/postgresql.png
+    - tech/html.png
+    - tech/css.png
+    - tech/js.png
+    - tech/heroku.png
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: KiSpace
+  description: A marketplace for event spaces.
+  image: projects/kispace-1.png
+  role: Front-End Developer
+  role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
+  tech_stack:
+  - tech/rails.png
+  - tech/html.png
+  - tech/css.png
+  - tech/js.png
+  - tech/bootstrap.png
+  - tech/mapbox.png
+  - tech/heroku.png
+  - tech/cloudinary.png
 
-- name: Final project
+- name: Mr. Watchlist
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/Work-In-Progress.png
   url: https://www.google.com
+  role: Full-Stack Developer
+  role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
+  tech_stack:
+  - tech/rails.png
+  - tech/html.png
+  - tech/css.png
+  - tech/js.png
+  - tech/bootstrap.png
+  - tech/heroku.png
+  - tech/cloudinary.png

@@ -10,7 +10,7 @@ $body-bg:                 $light-gray;
 $font-size-base: 1rem;
 
 // Colors
-$body-color: $dark-gray;
+$body-color: $gray;
 $primary:    $blue;
 $success:    $green;
 $info:       $yellow;
@@ -23,3 +23,70 @@ $border-radius-lg: 2px;
 $border-radius-sm: 2px;
 
 // Override other variables below!
+:root {
+  --background-color: #fff5ed;
+  --blue-primary: #181818;
+  --pink-accent: $gray;
+  --grey-accent: rgba(200, 197, 183, 0.201);
+  --base: $body-font;
+  --header: $headers-font;
+}
+
+html,
+body {
+  font-family: $body-font;
+  color: var(--blue-primary);
+  margin: 0;
+  width: 100%;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--header);
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 42px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: var(--base);
+  letter-spacing: -1.5px;
+}
+
+h6 {
+  font-family: var(--base);
+  color: var(--pink-accent);
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+
+a {
+  color: var(--blue-primary);
+}
+a:hover {
+  color: var(--blue-primary);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cad2d7;
+  padding: 0;
+  margin: 3em 0;
+}
