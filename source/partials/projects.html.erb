@@ -21,11 +21,9 @@
               <p><%= project.description %></p>
               <p><%= project.role_description %></p>
               <div class="technology-container">
-                <img class="technology-icons" src="assets/images/HTML5-logo.svg" alt="">
-                <img class="technology-icons" src="assets/images/CSS3-logo.svg" alt="">
-                <img class="technology-icons" src="assets/images/Ruby-logo.svg" alt="">
-                <img class="technology-icons" src="assets/images/Github-icon.svg" alt="">
-                <img class="technology-icons" src="assets/images/Figma-logo.svg" alt="">
+                <% project.tech_stack.each do |logo| %>
+                  <%= image_tag logo, alt: "text", class: "technology-icons" %>
+                <% end %>
               </div>
               <%= link_to "View Site", project.url, target: "_blank", rel: "nofollow noopener", class:"view-live-btn" %>
             </div>

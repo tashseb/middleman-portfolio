@@ -6,11 +6,11 @@
   role: Lead Developer
   role_description: I was responsible for designing the GitHub workflow, database seeding and migration with PostgreSQL and deployment pipeline on Heroku.
   tech_stack:
-    - tech/rails.svg
-    - tech/html.svg
-    - tech/css.svg
-    - tech/js.svg
-    - tech/postgresql.svg
+    - tech/rails.png
+    - tech/html.png
+    - tech/css.png
+    - tech/js.png
+    - tech/postgresql.png
 
 - name: KiSpace
   description: A marketplace for event spaces.
