@@ -28,8 +28,8 @@ $border-radius-sm: 2px;
   --blue-primary: #181818;
   --pink-accent: $gray;
   --grey-accent: rgba(200, 197, 183, 0.201);
-  --base: "Open Sans", sans-serif;
-  --header: "Playfair Display", serif;
+  --base: $body-font;
+  --header: $headers-font;
 }
 
 html,

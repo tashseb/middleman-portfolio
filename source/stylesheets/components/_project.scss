@@ -188,6 +188,7 @@ path.arrow-down {
 
 .project-image {
   width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .arrow-next {
@@ -214,8 +215,9 @@ path.arrow-down {
 }
 
 .technology-icons {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
+  opacity: 0.8;
 }
 
 .view-live-btn {

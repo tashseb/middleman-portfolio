@@ -1,16 +1,18 @@
 
 - name: Sinta
   description: A Recruitment Management System that helps recruiters to make the hiring process fast and transparent. Slack integration allows Recruiters to get real-time feedback from interviewers.
-  image: https://user-images.githubusercontent.com/13973128/207237758-3bff6ea4-5fd3-4de3-8fbe-f8fa1b2f5dcf.gif
+  image: projects/Sinta.gif
   url: https://www.sintaapp.com
   role: Lead Developer
   role_description: I was responsible for designing the GitHub workflow, database seeding and migration with PostgreSQL and deployment pipeline on Heroku.
   tech_stack:
     - tech/rails.png
+    - tech/slack.png
+    - tech/postgresql.png
     - tech/html.png
     - tech/css.png
     - tech/js.png
-    - tech/postgresql.png
+    - tech/heroku.png
 
 - name: KiSpace
   description: A marketplace for event spaces.
