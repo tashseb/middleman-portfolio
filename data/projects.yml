@@ -24,10 +24,14 @@
   - tech/html.png
   - tech/css.png
   - tech/js.png
+  - tech/bootstrap.png
+  - tech/mapbox.png
+  - tech/heroku.png
+  - tech/cloudinary.png
 
 - name: Mr. Watchlist
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/Work-In-Progress.png
   url: https://www.google.com
   role: Full-Stack Developer
   role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
@@ -36,3 +40,6 @@
   - tech/html.png
   - tech/css.png
   - tech/js.png
+  - tech/bootstrap.png
+  - tech/heroku.png
+  - tech/cloudinary.png
