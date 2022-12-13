@@ -1,8 +1,7 @@
 
 - name: Sinta
   description: A Recruitment Management System that helps recruiters to make the hiring process fast and transparent. Slack integration allows Recruiters to get real-time feedback from interviewers.
-  image:
-    - projects/sinta/Sinta-dashboard.png
+  image: projects/sinta/Sinta-dashboard.png
   url: https://www.sintaapp.com
   role: Lead Developer
   role_description: I was responsible for designing the GitHub workflow, database seeding and migration with PostgreSQL and deployment pipeline on Heroku.
@@ -17,8 +16,7 @@
 
 - name: KiSpace
   description: A marketplace for event spaces.
-  image: https://user-images.githubusercontent.com/91389023/205850536-54f20887-fba5-4a3d-a405-10e01921ef6c.PNG
-  url: https://kispace.herokuapp.com/
+  image: projects/kispace-1.png
   role: Front-End Developer
   role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
   tech_stack:
