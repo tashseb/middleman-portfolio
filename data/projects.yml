@@ -5,6 +5,12 @@
   url: https://www.sintaapp.com
   role: Lead Developer
   role_description: I was responsible for designing the GitHub workflow, database seeding and migration with PostgreSQL and deployment pipeline on Heroku.
+  tech_stack:
+    - tech/rails.svg
+    - tech/html.svg
+    - tech/css.svg
+    - tech/js.svg
+    - tech/postgresql.svg
 
 - name: KiSpace
   description: A marketplace for event spaces.
@@ -12,6 +18,11 @@
   url: https://github.com/tashseb/KiSpace
   role: Front-End Developer
   role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
+  tech_stack:
+  - tech/rails.svg
+  - tech/html.svg
+  - tech/css.svg
+  - tech/js.svg
 
 - name: Mr. Watchlist
   description: Decent description of the app
@@ -19,3 +30,8 @@
   url: https://www.google.com
   role: Full-Stack Developer
   role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
+  tech_stack:
+  - tech/rails.svg
+  - tech/html.svg
+  - tech/css.svg
+  - tech/js.svg
