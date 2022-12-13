@@ -19,10 +19,10 @@
   role: Front-End Developer
   role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
   tech_stack:
-  - tech/rails.svg
-  - tech/html.svg
-  - tech/css.svg
-  - tech/js.svg
+  - tech/rails.png
+  - tech/html.png
+  - tech/css.png
+  - tech/js.png
 
 - name: Mr. Watchlist
   description: Decent description of the app
@@ -31,7 +31,7 @@
   role: Full-Stack Developer
   role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
   tech_stack:
-  - tech/rails.svg
-  - tech/html.svg
-  - tech/css.svg
-  - tech/js.svg
+  - tech/rails.png
+  - tech/html.png
+  - tech/css.png
+  - tech/js.png
