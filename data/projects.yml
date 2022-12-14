@@ -17,6 +17,7 @@
 - name: KiSpace
   description: A marketplace for event spaces.
   image: projects/kispace-1.png
+  url: https://kispace.herokuapp.com/
   role: Front-End Developer
   role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
   tech_stack:
@@ -32,7 +33,7 @@
 - name: Mr. Watchlist
   description: Decent description of the app
   image: projects/Work-In-Progress.png
-  url: https://www.google.com
+  url: https://github.com/tashseb/rails-watch-list
   role: Full-Stack Developer
   role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
   tech_stack:
