@@ -4,7 +4,7 @@
       <div id="projects">
         <h2 class="text-center-heading">Projects</h2>
         <% data.projects.each do |project| %>
-          <div class="project-container">
+          <div class="project-container scroller ">
             <div class="project-image project-img">
               <%= image_tag project.image, alt: "project image", class: "d-block w-100", style: "box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);"%>
             </div>
