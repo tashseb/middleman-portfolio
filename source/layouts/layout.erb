@@ -12,6 +12,17 @@
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
     <%= favicon_tag 'TC-favicon.png'%>
+    <script src="../../panelsnap.js" defer></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new PanelSnap();
+      });
+    </script>
+    <style>
+      section:nth-child(2) {
+        min-height: calc(15vh + 35px);
+      }
+    </style>
   </head>
   <body>
     <%= yield %>
