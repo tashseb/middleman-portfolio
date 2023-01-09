@@ -25,8 +25,8 @@ $border-radius-sm: 2px;
 // Override other variables below!
 :root {
   --background-color: #fff5ed;
-  --blue-primary: #181818;
-  --pink-accent: $gray;
+  --gray-primary: #181818;
+  --gray-accent: $gray;
   --grey-accent: rgba(200, 197, 183, 0.201);
   --base: $body-font;
   --header: $headers-font;
@@ -35,7 +35,7 @@ $border-radius-sm: 2px;
 html,
 body {
   font-family: $body-font;
-  color: var(--blue-primary);
+  color: var(--gray-primary);
   margin: 0;
   width: 100%;
   scroll-behavior: smooth;
@@ -70,16 +70,16 @@ h5 {
 
 h6 {
   font-family: var(--base);
-  color: var(--pink-accent);
+  color: var(--gray-accent);
   font-size: 18px;
   padding-bottom: 16px;
 }
 
 a {
-  color: var(--blue-primary);
+  color: var(--gray-primary);
 }
 a:hover {
-  color: var(--blue-primary);
+  color: var(--gray-primary);
 }
 
 hr {

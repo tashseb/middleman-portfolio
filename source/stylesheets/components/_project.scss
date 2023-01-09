@@ -9,12 +9,12 @@
 }
 
 .popover {
-  border-color: var(--pink-accent);
+  border-color: var(--gray-accent);
   font-family: var(--header);
 }
 
 .popover .arrow::before {
-  border-right-color: var(--pink-accent);
+  border-right-color: var(--gray-accent);
 }
 
 .main-wrapper {
@@ -46,7 +46,7 @@
 }
 
 .line-separator {
-  color: var(--pink-accent);
+  color: var(--gray-accent);
 }
 
 .hero-image {
@@ -217,6 +217,7 @@ path.arrow-down {
   width: 35px;
   height: 35px;
   opacity: 0.8;
+  margin-bottom: 8px;
 }
 
 .view-live-btn {
@@ -224,7 +225,7 @@ path.arrow-down {
   font-weight: 700;
   margin-top: 25px;
   padding: 4px 20px 4px 30px;
-  border: 2px solid var(--blue-primary);
+  border: 2px solid var(--gray-primary);
   border-radius: 40px;
   display: inline-block;
   transition: all 0.4s ease 0s;
@@ -235,7 +236,7 @@ path.arrow-down {
 .view-live-btn:hover {
   transition: all 0.2s ease 0s;
   text-decoration: none;
-  background-color: var(--pink-accent);
+  background-color: var(--gray-accent);
 }
 
 .view-code-btn {
@@ -251,7 +252,7 @@ path.arrow-down {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: var(--blue-primary);
+  stroke: var(--gray-primary);
   stroke-width: 2;
   transform: translateX(-5px);
 
