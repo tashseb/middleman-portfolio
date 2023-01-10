@@ -9,3 +9,7 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+html, body, body>div {
+  height:100%;
+}

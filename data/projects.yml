@@ -3,6 +3,7 @@
   description: A Recruitment Management System that helps recruiters to make the hiring process fast and transparent. Slack integration allows Recruiters to get real-time feedback from interviewers.
   image: projects/sinta/Sinta-dashboard.png
   url: https://www.sintaapp.com
+  gh: https://github.com/tashseb/sinta
   role: Lead Developer
   role_description: I was responsible for designing the GitHub workflow, database seeding and migration with PostgreSQL and deployment pipeline on Heroku.
   tech_stack:
@@ -18,6 +19,7 @@
   description: A marketplace for event spaces.
   image: projects/kispace-1.png
   url: https://kispace.herokuapp.com/
+  gh: https://github.com/tashseb/KiSpace
   role: Front-End Developer
   role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
   tech_stack:
@@ -31,9 +33,10 @@
   - tech/cloudinary.png
 
 - name: Mr. Watchlist
-  description: Decent description of the app
+  description: An app that creates your personalized watch list
   image: projects/Work-In-Progress.png
   url: https://github.com/tashseb/rails-watch-list
+  gh: https://github.com/tashseb/rails-watch-list
   role: Full-Stack Developer
   role_description: My role was to design the user dashboard and its functionality. I also helped out with the div layout for the landing page.
   tech_stack:
