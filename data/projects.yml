@@ -34,7 +34,7 @@
 
 - name: Mr. Watchlist
   description: An app that creates your personalized watch list
-  image: projects/Work-In-Progress.png
+  image: projects/watch-list.png
   url: https://github.com/tashseb/rails-watch-list
   gh: https://github.com/tashseb/rails-watch-list
   role: Full-Stack Developer
